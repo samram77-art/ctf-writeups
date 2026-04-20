@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Sensitive / personal notes (keep flags out of public commits)
+flags.txt
+notes.txt
+*.notes
+private/
+secrets/
+
+# Tool outputs / logs
+*.log
+*.out
+output/
+results/
+
+# Burp Suite state files
+*.burp
+
+# Network captures (can be large)
+*.pcap
+*.pcapng
+
+# Compiled binaries / challenge files (re-download from platform)
+*.exe
+*.elf
+*.bin
+*.so
+challenge_files/
